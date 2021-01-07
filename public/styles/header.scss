@@ -11,14 +11,13 @@ header {
   align-items: center;
   background-color: $tweeter-yellow;
   background-image: url("https://www.transparenttextures.com/patterns/arches.png");
-
 }
 
 @media only screen and (max-width: 1024px) {
   header {
     width: 100%;
     margin-left: 0;
-    margin-top: 120px;
+    margin-top: 100px;
   }
 }
 

@@ -13,11 +13,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:wght@400;600&display=swap"
     rel="stylesheet">
 
-
   <!-- App CSS -->
+  <link rel="stylesheet" href="/styles/header.css" type="text/css" />
   <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
   <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
-  <link rel="stylesheet" href="/styles/header.css" type="text/css" />
   <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
   <link rel="stylesheet" href="/styles/tweets.css" type="text/css" />
 
@@ -36,8 +35,10 @@
 
   <!-- Character Counter-->
   <script type="text/javascript" src="scripts/composer-char-counter.js"></script>
-
-  <script type="text/javascript" src="scripts/features.js"></script>
+  <!-- New Tweet form and button to expand/collapse-->
+  <script type="text/javascript" src="scripts/new-tweet.js"></script>
+  <!-- Arrow To Return to Top of Page-->
+  <script type="text/javascript" src="scripts/arrow-to-top.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js"
     integrity="sha512-Izh34nqeeR7/nwthfeE0SI3c8uhFSnqxV0sI9TvTcXiFJkMd6fB644O64BRq2P/LA/+7eRvCw4GmLsXksyTHBg=="
@@ -47,9 +48,18 @@
 <body>
   <!-- Top nav bar (fixed) -->
   <nav>
-    <span>tweeter</span>
-    <span><button type="button" class="newTweetButton"><b>Write</b> a new tweet <br> <i class="fas fa-angle-double-down"
-          style="margin-top: 0.3em"></i></button></span>
+      <span>
+        <h3>tweeter</h3>
+      </span>
+
+     <span>
+        <button type="button" class="newTweetButton">
+          <b>Write</b> a new tweet <br> 
+          <i class="fas fa-angle-double-down"></i>
+        </button>
+    </span>
+    
+   
   </nav>
   <header>
     <div>
